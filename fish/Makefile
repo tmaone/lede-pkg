@@ -21,8 +21,9 @@ PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
 include $(INCLUDE_DIR)/package.mk
 
 define Package/fish
-	SECTION:=shells
-	CATEGORY:=Base system
+	SECTION:=utils
+	CATEGORY:=Utilities
+	SUBMENU:=Shells
 	TITLE:=A smart and user-friendly command line shell
 	DEPENDS:=+libncurses +libstdcpp +coreutils-whoami
 	URL:=https://fishshell.com
