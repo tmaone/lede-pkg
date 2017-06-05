@@ -13,7 +13,7 @@ PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://github.com/fish-shell/fish-shell/releases/download/2.6.0
-PKG_HASH:=f8c0edadca2de379ccf305aeace660a9255fa2180c72e85e97705a24c256b2a5
+PKG_MD5SUM:=ce9d8cc2a34d172a94cfa3ef9988937c
 PKG_INSTALL:=1
 
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
