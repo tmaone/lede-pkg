@@ -40,11 +40,10 @@ endef
 #/opt/etc/fish.conf
 #endef
 
-defind Build/Configure
+define Build/Configure
 	$(call Build/Configure/Default, \
 		--bindir=/bin \
-		--prefix=/usr
-	)
+		--prefix=/usr )
 endef
 
 define Package/fish/postinst
